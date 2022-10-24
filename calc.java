@@ -27,46 +27,46 @@ class Calculator extends JFrame implements ActionListener
  {
   T1=new JTextField();
   T1.setBounds(100,100,200,30);
-  setSize(480,480);
+  setSize(500,500);
   setLayout(null);
   //First row
   b1=new JButton("1");
-  b1.setBounds(100,140,50,30);
+  b1.setBounds(110,140,50,30);
   b2=new JButton("2");
-  b2.setBounds(150,140,50,30);
+  b2.setBounds(160,140,50,30);
   b3=new JButton("3");
-  b3.setBounds(200,140,50,30);
+  b3.setBounds(210,140,50,30);
   b4=new JButton("+");
-  b4.setBounds(250,140,50,30);
+  b4.setBounds(260,140,50,30);
   //Second row
   b5=new JButton("4");
-  b5.setBounds(100,170,50,30);
+  b5.setBounds(110,170,50,30);
   b6=new JButton("5");
-  b6.setBounds(150,170,50,30);
+  b6.setBounds(160,170,50,30);
   b7=new JButton("6");
-  b7.setBounds(200,170,50,30);
+  b7.setBounds(210,170,50,30);
   b8=new JButton("-");
-  b8.setBounds(250,170,50,30);
+  b8.setBounds(260,170,50,30);
   //third row
   b9=new JButton("7");
-  b9.setBounds(100,200,50,30);
+  b9.setBounds(110,200,50,30);
   b10=new JButton("8");
-  b10.setBounds(150,200,50,30);
+  b10.setBounds(160,200,50,30);
   b11=new JButton("9");
-  b11.setBounds(200,200,50,30);
+  b11.setBounds(210,200,50,30);
   b12=new JButton("*");
-  b12.setBounds(250,200,50,30);
+  b12.setBounds(260,200,50,30);
   //Fouth row
   b13=new JButton("/");
-  b13.setBounds(100,230,50,30);
+  b13.setBounds(110,230,50,30);
   b14=new JButton("%");
-  b14.setBounds(150,230,50,30);
+  b14.setBounds(160,230,50,30);
   b15=new JButton("=");
-  b15.setBounds(200,230,50,30);
+  b15.setBounds(210,230,50,30);
   b16=new JButton("C");
-  b16.setBounds(250,230,50,30);
+  b16.setBounds(260,230,50,30);
   b17=new JButton("0");
-  b17.setBounds(100,260,200,30);
+  b17.setBounds(110,260,200,30);
   add(T1);
   add(b1);
   add(b2);
